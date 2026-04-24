@@ -1,0 +1,18 @@
+<!DOCTYPE html>    
+<body>
+<html>
+<h1>example for web storage api</h1>
+<div id="result"></div>
+<script>
+const x = document.getElelmentById("result");
+if(typeof(storage)!=="undefined")
+{
+    x.innerHTML="your browser supports web storage!";
+}
+else
+{
+   x.innerHTML="sorry, no web support!";
+}
+</script>
+</body>
+</html>                                        
